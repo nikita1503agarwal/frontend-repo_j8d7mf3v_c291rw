@@ -4,12 +4,16 @@ import Section from './components/Section'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import AircraftScroll from './components/AircraftScroll'
 
 function App() {
   return (
     <div className="min-h-screen bg-black text-white">
       <Navbar />
       <Hero />
+
+      {/* Aircraft guided scroll section */}
+      <AircraftScroll />
 
       <Section id="about" title="About" subtitle="A college aerospace enthusiast who thrives at the intersection of flight and code.">
         <div className="grid md:grid-cols-3 gap-8">
